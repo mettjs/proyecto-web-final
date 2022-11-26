@@ -9,13 +9,6 @@ const flechaIzquierda = document.getElementById('flecha-izquierda');
 const flechaDerecha = document.getElementById('flecha-derecha');
 const pelicula = document.getElementById('pelicula');
 
-// ?------ ----- Event listener para las peliculas --------------
-pelicula.addEventListener('click', ()=> {
-	alert("xdd");
-});
-
-
-
 // ? ----- ----- Event Listener para la flecha derecha. ----- -----
 flechaDerecha.addEventListener('click', () => {
 	fila.scrollLeft += fila.offsetWidth;
