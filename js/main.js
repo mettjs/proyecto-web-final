@@ -90,3 +90,5 @@ fila3.addEventListener('mouseleave', () => {
 fila4.addEventListener('mouseleave', () => {
 	peliculaas.forEach(pelicula => pelicula.classList.remove('hover'));
 });
+
+
