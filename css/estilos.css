@@ -159,6 +159,7 @@ header nav a.activo {
 /* ---- ----- ----- Carousel ----- ----- ----- */
 
 .peliculas-recomendadas .contenedor-carousel {
+	filter: drop-shadow(0 0 0.50rem gray);
 	width: 100%;
 	padding: 20px 0;
 	overflow: hidden;
@@ -276,6 +277,7 @@ header nav a.activo {
 /* CONTENEDOR Y FLECHAS */
 
 .peliculas-accion {
+	filter: drop-shadow(0 0 0.50rem gray);
 	margin-bottom: 70px;
 }
 
@@ -535,3 +537,148 @@ header nav a.activo {
 	max-width: 50%;
 	margin-bottom: 1.25em;
 }
+
+/*Obi-Wan Kenobi*/
+.pelicula-obi{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/peliculas/back-obi.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.pelicula-obi .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+
+.pelicula-obi .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+
+.pelicula-obi .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+
+/* Minons */
+
+.pelicula-minions{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/peliculas/back-minions.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.pelicula-minions .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+
+.pelicula-minions .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+
+.pelicula-minions .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+
+/* Jujutsu */
+
+.pelicula-jujutsu{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/peliculas/back-jujutsu.webp);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.pelicula-jujutsu .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+
+.pelicula-jujutsu .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+
+.pelicula-jujutsu .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+
+/* 365 Days */
+
+.pelicula-365{
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/peliculas/back-365.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+.pelicula-365 .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+}
+
+.pelicula-365 .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+
+.pelicula-365 .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+
+/* Hover personalizado */
+
+.ksyo {
+	transition: 0.5s;
+	filter: drop-shadow(0 0 0.50rem gray);
+}
+
+.ksyo :hover{
+	transform: scale(1.08);
+	transform-origin: center;
+	position: relative;
+	transition: 0.7s;
+	z-index: 99;
+}
+
+
+
