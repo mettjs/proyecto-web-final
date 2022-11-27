@@ -91,4 +91,49 @@ fila4.addEventListener('mouseleave', () => {
 	peliculaas.forEach(pelicula => pelicula.classList.remove('hover'));
 });
 
+// Funcion tendencias en peliculas
+
+function tendencias(){
+	const tendencias = `<div class="peliculas-recomendadas contenedor">
+	<div class="contenedor-titulo-controles">
+		<h3>Recomendado para ti</h3>
+	</div>
+	<div class="contenedor-principal">
+		<div class="contenedor-carousel">
+			<div class="carousel" id="pelicula">
+				<div class="pelicula ksyo">
+					<a href="Doctor-strange.html"><img src="../../img/peliculas/backimg-strange.webp" alt="" width="340" height="225"></a>
+				</div>
+				<div class="pelicula ksyo">
+					<a href="Sonic-2.html"><img src="../../img/peliculas/back-sonic-2.webp" alt="" width="340" height="225"></a>
+				</div>
+				<div class="pelicula ksyo">
+					<a href="Gato-botas-2.html"><img src="../../img/peliculas/poster-gato.jpg" alt="" width="340" height="225"></a>
+				</div>
+				<div class="pelicula ksyo">
+					<a href="moon-knight.html"><img src="../../img/peliculas/poster-moon.jpg" alt="" width="340" height="225"></a>
+				</div>
+				<div class="pelicula ksyo">
+					<a href="spider-man-NWH.html"><img src="../../img/peliculas/back-spider.jpg" alt="" width="340" height="225"></a>
+				</div>
+				<div class="pelicula ksyo">
+					<a href="Obi-wan-kenobi.html"><img src="../../img/peliculas/poster-obi.jpg" alt="" width="340" height="225"></a>
+				</div>
+				<div class="pelicula ksyo">
+					<a href="Jujutsu-kaisen-0.html"><img src="../../img/peliculas/poster-jujutsu.jpg" alt="" width="340" height="225"></a>
+				</div>
+				<div class="pelicula ksyo">
+					<a href="365-days.html"><img src="../../img/peliculas/poster-365.jpg" alt="" width="340" height="225"></a>
+				</div>
+				<div class="pelicula ksyo">
+					<a href="Minions-the-rise-gru.html"><img src="../../img/peliculas/poster-minions.jpg" alt="" width="340" height="225"></a>
+				</div>
+		</div>
+	</div>
+</div>`
+
+var DOMendobject = document.getElementById("to");
+
+DOMendobject.innerHTML = tendencias;
+}
 
