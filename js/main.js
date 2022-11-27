@@ -136,3 +136,4 @@ var DOMendobject = document.getElementById("to");
 
 DOMendobject.innerHTML = tendencias;
 }
+
