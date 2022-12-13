@@ -159,6 +159,7 @@ header nav a.activo {
 /* ---- ----- ----- Carousel ----- ----- ----- */
 
 .peliculas-recomendadas .contenedor-carousel {
+	filter: drop-shadow(0 0 0.50rem gray);
 	width: 100%;
 	padding: 20px 0;
 	overflow: hidden;
@@ -276,6 +277,7 @@ header nav a.activo {
 /* CONTENEDOR Y FLECHAS */
 
 .peliculas-accion {
+	filter: drop-shadow(0 0 0.50rem gray);
 	margin-bottom: 70px;
 }
 
@@ -662,4 +664,21 @@ header nav a.activo {
 	max-width: 50%;
 	margin-bottom: 1.25em;
 }
+
+/* Hover personalizado */
+
+.ksyo {
+	transition: 0.5s;
+	filter: drop-shadow(0 0 0.50rem gray);
+}
+
+.ksyo :hover{
+	transform: scale(1.08);
+	transform-origin: center;
+	position: relative;
+	transition: 0.7s;
+	z-index: 99;
+}
+
+
 
