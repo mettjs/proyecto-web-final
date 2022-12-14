@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../css/form.css">
-	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
-	<link rel="shortcut icon" href="img/png-transparent-black-and-red-character-illustration-league-of-legends-electronic-sports-minecraft-logo-logo-esport-sport-fictional-character-twitch.png">
-	<title>TrailersApp</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon"
+        href="img/png-transparent-black-and-red-character-illustration-league-of-legends-electronic-sports-minecraft-logo-logo-esport-sport-fictional-character-twitch.png">
+    <title>TrailersApp</title>
 </head>
 
 <body>
-	    <header>
-		    <div class="contenedor">
-			    <h2 class="logotipo"><a href="../index.html" class="contenedor">TrailersApp</a></h2>
-			    <nav>
-				    <a href="../index.html" class=""><strong>Inicio</strong></a>
-				    <a href="../Trailers.html" class=""><strong>Trailers</strong></a>
-				    <a href="../admin.html" class="activo"><strong>Admin</strong></a>
-			    </nav>
-		    </div>
-	    </header>
+    <header>
+        <div class="contenedor">
+            <h2 class="logotipo"><a href="../index.html" class="contenedor">TrailersApp</a></h2>
+            <nav>
+                <a href="../index.html" class="" id="index"><strong>Inicio</strong></a>
+                <a href="../Trailers.html" class=""><strong>Trailers</strong></a>
+                <a href="../admin.html" class="activo"><strong>Admin</strong></a>
+            </nav>
+        </div>
+    </header>
 
     <div class="login-box">
         <div class="login">
             <form>
-            <h2 style="color: red;">Agregar pelicula</h2><br>
-            <p>Titulo:</p>
-                <input type="text" value="Titulo de la pelicula" id="Titulo">
-            <p>Director:</p>
-                <input type="text" value="Director" id="Director">
-            <p>Sinopsis:</p>
-                <textarea name="reseña" rows="10" cols="40" id="Sinopsis">Sinopsis</textarea>
-            <p>Reparto:</p>
-                <input type="text" value="Actores" id="Reparto">
-            <p>Duración:</p>
-                <input type="text" value="x... minutos" id="Duracion">
-            <p>Generos:</p>
-                <input type="text" value="Accion, ..." id="Generos">
-            <p>Fecha:</p>
-                <input type="text" value="DD/MM/XXXX" id="Fecha">
-            <p>Trailer</p>
-                <input type="text" value="<iframe>..." id="YT">
-            <input type="submit" value="Agregar pelicula" id="Agregar" onclick="Agregar()">
+                <h2 style="color: red;">Agregar pelicula</h2><br>
+                <p>Titulo:</p>
+                <input type="text" placeholder="Titulo de la pelicula" id="Titulo">
+                <p>Director:</p>
+                <input type="text" placeholder="Director" id="Director">
+                <p>Sinopsis:</p>
+                <textarea placeholder="Sinopsis" name="reseña" rows="10" cols="40" id="Sinopsis"></textarea>
+                <p>Reparto:</p>
+                <input type="text" placeholder="Actores" id="Reparto">
+                <p>Duración:</p>
+                <input type="text" placeholder="x... minutos" id="Duracion">
+                <p>Generos:</p>
+                <input type="text" placeholder="Accion, ..." id="Generos">
+                <p>Fecha:</p>
+                <input type="text" placeholder="DD/MM/XXXX" id="Fecha">
+                <p>Trailer</p>
+                <input type="text" placeholder="<iframe>..." id="YT">
+                <input type="submit" value="Agregar pelicula" id="Agregar" onclick="Agregar()">
             </form>
         </div>
     </div>
@@ -49,4 +52,5 @@
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
