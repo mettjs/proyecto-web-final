@@ -14,7 +14,7 @@ flechaDerecha.addEventListener('click', () => {
 	fila.scrollLeft += fila.offsetWidth;
 
 	const indicadorActivo = document.querySelector('.indicadores .activo');
-	if(indicadorActivo.nextSibling){
+	if (indicadorActivo.nextSibling) {
 		indicadorActivo.nextSibling.classList.add('activo');
 		indicadorActivo.classList.remove('activo');
 	}
@@ -25,7 +25,7 @@ flechaIzquierda.addEventListener('click', () => {
 	fila.scrollLeft -= fila.offsetWidth;
 
 	const indicadorActivo = document.querySelector('.indicadores .activo');
-	if(indicadorActivo.previousSibling){
+	if (indicadorActivo.previousSibling) {
 		indicadorActivo.previousSibling.classList.add('activo');
 		indicadorActivo.classList.remove('activo');
 	}
@@ -33,10 +33,10 @@ flechaIzquierda.addEventListener('click', () => {
 
 // ? ----- ----- Paginacion ----- -----
 const numeroPaginas = Math.ceil(peliculas.length / 5);
-for(let i = 0; i < numeroPaginas; i++){
+for (let i = 0; i < numeroPaginas; i++) {
 	const indicador = document.createElement('button');
 
-	if(i === 0){
+	if (i === 0) {
 		indicador.classList.add('activo');
 	}
 
@@ -93,7 +93,7 @@ fila4.addEventListener('mouseleave', () => {
 
 // Funcion tendencias en peliculas
 
-function tendencias(){
+function tendencias() {
 	const tendencias = `<div class="peliculas-recomendadas contenedor">
 	<div class="contenedor-titulo-controles">
 		<h3>Recomendado para ti</h3>
@@ -102,38 +102,27 @@ function tendencias(){
 		<div class="contenedor-carousel">
 			<div class="carousel" id="pelicula">
 				<div class="pelicula ksyo">
-					<a href="Doctor-strange.html"><img src="../../img/peliculas/backimg-strange.webp" alt="" width="340" height="225"></a>
+					<a href="Doctor-strange.html"><img src="../../img/peliculas/backimg-strange.webp" alt="" width="340" height="225" id="1"></a>
 				</div>
 				<div class="pelicula ksyo">
-					<a href="Sonic-2.html"><img src="../../img/peliculas/back-sonic-2.webp" alt="" width="340" height="225"></a>
+					<a href="Sonic-2.html"><img src="../../img/peliculas/back-sonic-2.webp" alt="" width="340" height="225" id="2"></a>
 				</div>
 				<div class="pelicula ksyo">
-					<a href="Gato-botas-2.html"><img src="../../img/peliculas/poster-gato.jpg" alt="" width="340" height="225"></a>
+					<a href="Gato-botas-2.html"><img src="../../img/peliculas/poster-gato.jpg" alt="" width="340" height="225" id="3"></a>
 				</div>
 				<div class="pelicula ksyo">
-					<a href="moon-knight.html"><img src="../../img/peliculas/poster-moon.jpg" alt="" width="340" height="225"></a>
+					<a href="moon-knight.html"><img src="../../img/peliculas/poster-moon.jpg" alt="" width="340" height="225" id="4"></a>
 				</div>
 				<div class="pelicula ksyo">
-					<a href="spider-man-NWH.html"><img src="../../img/peliculas/back-spider.jpg" alt="" width="340" height="225"></a>
+					<a href="spider-man-NWH.html"><img src="../../img/peliculas/back-spider.jpg" alt="" width="340" height="225" id="5"></a>
 				</div>
-				<div class="pelicula ksyo">
-					<a href="Obi-wan-kenobi.html"><img src="../../img/peliculas/poster-obi.jpg" alt="" width="340" height="225"></a>
-				</div>
-				<div class="pelicula ksyo">
-					<a href="Jujutsu-kaisen-0.html"><img src="../../img/peliculas/poster-jujutsu.jpg" alt="" width="340" height="225"></a>
-				</div>
-				<div class="pelicula ksyo">
-					<a href="365-days.html"><img src="../../img/peliculas/poster-365.jpg" alt="" width="340" height="225"></a>
-				</div>
-				<div class="pelicula ksyo">
-					<a href="Minions-the-rise-gru.html"><img src="../../img/peliculas/poster-minions.jpg" alt="" width="340" height="225"></a>
 				</div>
 		</div>
 	</div>
 </div>`
 
-var DOMendobject = document.getElementById("to");
+	var DOMendobject = document.getElementById("to");
 
-DOMendobject.innerHTML = tendencias;
+	DOMendobject.innerHTML = tendencias;
 }
 
